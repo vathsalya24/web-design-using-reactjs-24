@@ -25,5 +25,25 @@ img{
 }
 .parent{
 	display:flex;
-	flex-direction: row-reverse;
+	flex-direction: ro;w-reverse
+}
+@media screen and (max-width: 425px){
+	.parent{
+		flex-direction: column;
+	}
+	.first{
+		background-color: #c45e45;
+
+
+	}
+}
+@media screen and (min-width:426px ) and (max-width:768px){
+	.parent{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+}  .first{
+	background-color: #add;
+	border-radius: 20px;
+	width: 300px;
 }
