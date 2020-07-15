@@ -1,0 +1,50 @@
+{
+	"details":{
+		"images":"v.jpg",
+		"name":"G.vathsalya",
+		"email":"vathsalya24v@gmail.com",
+		"number":"6305535815",
+		"address":"vizag"
+	},
+	"careerobjective":{
+		"info":"To beacome software developer"
+
+	},
+	"educationalqualification":[
+{
+	"institute":"vignan institute of ennginering of women",
+	"degree":"B.tech",
+	"passoutyr":"2021",
+	"percentage":"80%"
+
+},
+{
+	"institute":"narayana junior college",
+	"degree":"Intermediate",
+	"passoutyr":"2017",
+	"percentage":"97"
+
+},
+{
+	"institute":"kv waltair",
+	"degree":"cbsc",
+	"passoutyr":"2015",
+	"percentage":"99%"
+
+}
+    ],
+
+    "techinicalskills":[{
+    	"title":"Programming language",
+    	"info":["c,c++,java,python"]
+    },
+    {
+    	"title":"database",
+    	"info":["oracle,sql,mysql"]
+    },
+    {
+    	"title":"operating system",
+    	"info":["windows,linux"]
+    }
+]
+}

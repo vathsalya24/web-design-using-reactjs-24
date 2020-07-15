@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style >
+		.parent{
+			display: flex;
+			flex-direction: row;
+		}
+		.card{
+			text-align: center;
+			border:2px solid #000;
+			width: 20%;
+			border-radius: 20px;
+			margin-right: 5%;
+			padding:1%;
+			
+		}
+	</style>
+</head>
+<body>
+<div class="parent">
+	<div class="card">
+		<img src="images/v.jpg" alt="image">
+		<div class="holder">
+			<p>Gadidala Vathsalya</p>
+			<p>17NM1A0545</p>
+			<button type="button" id="txtbtn" onclick="buttonClick1()">Static</button>
+		</div>
+	</div>
+	<div class="card">
+		<img src="images/photo.jpg" alt="image" height="200px">
+		<div class="holder">
+			<p>Gadidala Vathsalya</p>
+			<p>17NM1A0545</p>
+			<button type="button" id="txtbtn" onclick="buttonClick2()">Dynamic</button>
+		</div>
+	</div>
+</div>
+
+</body>
+
+	<script type="text/javascript">
+		function buttonClick1() {
+			window.location.href="Resume.html";
+		}
+		function buttonClick2() {
+			window.location.href="http://127.0.0.1:8887/";
+		}
+	</script>
+</html>
