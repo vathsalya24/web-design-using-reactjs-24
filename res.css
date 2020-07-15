@@ -1,0 +1,75 @@
+#para{
+	background-color: yellow;
+	color:blue;
+}
+.para{
+	background-color: #add;
+	color:black;
+}
+#paragraph{
+	background-color: #add;
+	color: green;
+}
+.first,.second,.third,.forth{
+	border: 2px solid #add;
+	margin: 2px;
+	width: 400px;
+	text-align: "center";
+}
+img{
+	width: 200px;
+	padding: 10px;
+}
+.parent{
+	display: flex;
+	flex-direction:horizontal-reverse;
+}
+@media screen and (max-width: 425px){
+	.parent{
+		flex-direction: column;
+	}
+	.first{
+		background-color: #c45e45;
+	}
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.parent{
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.first{
+		background-color: #add;
+		border-radius: 10px;
+		width: 200px;
+	}
+}
+
+.page1{
+	border:2px solid #add;
+	margin:2px;
+	width: 700px;
+}
+.page2{
+	border:2px solid #add;
+	margin:2px;
+	width: 700px;
+
+}
+.Profile{
+	border:2px solid #add;
+	margin: 2px;
+	width:800px;
+	text-align: center;
+}
+.Profile,.Techinical_skills,.Hobbies{
+	border:2px solid #add;
+	margin: 2px;
+	width: 600px;
+}
+.Career_objective,.Educational_qualification,.Projects,.Declaration{
+	border:2px solid #add;
+	margin: 2px;
+	width: 600px;
+    		
+
+}
